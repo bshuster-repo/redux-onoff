@@ -1,0 +1,18 @@
+{
+  "name": "redux-onoff",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {},
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "clean": "rm -rf ./coverage"
+  },
+  "devDependencies": {
+    "jest": "^23.5.0"
+  },
+  "jest": {
+    "verbose": true,
+    "coverageDirectory": "coverage"
+  }
+}
